@@ -1,5 +1,5 @@
 def task1 ():
-    input = open("day1_task1.txt", "r").readlines()
+    input = open("inputs/day1.txt", "r").readlines()
     previousNumber = 0
     n = -1
     for a in input:
@@ -13,7 +13,7 @@ task1()
 
 
 def task2 ():
-    input = open("day1_task2.txt", "r").readlines()
+    input = open("inputs/day1.txt", "r").readlines()
 
     for index in range(len(input)): 
         input[index] = int(input[index])
