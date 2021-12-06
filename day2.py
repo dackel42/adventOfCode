@@ -1,5 +1,5 @@
 def task1 ():
-    input = open("day2_task1.txt", "r").readlines()
+    input = open("inputs/day2.txt", "r").readlines()
     x = 0
     y = 0#
     for i in input:
@@ -16,7 +16,7 @@ def task1 ():
 task1()
 
 def task2 ():
-    input = open("day2_task1.txt", "r").readlines()
+    input = open("inputs/day2.txt", "r").readlines()
     x = 0
     y = 0
     aim = 0
